@@ -1,5 +1,4 @@
-# Vue 3 + Vite
-## Challenge Front-end
+# Challenge Front-end
 - Vas a utilizar Vue.js v2. (Listo en el Primer Commit)
 - Vas a usar Vite para levantar un ambiente prototipo. (Listo en el Primer Commit)
 - Integra BootstrapVue ó Vuetify para usarlo de framework de estilos de UI. (Listo en el Primer Commit)
@@ -9,3 +8,4 @@
 - Debes usar vue router y vuex. (Listo en el Primer Commit)
 - Los datos deben estar quemados en el store, no pierdas tiempo en esto, pueden ser datos tipo lorem ipsum. No se necesita implementar la funcionalidad de búsqueda.
 - 
+## Oscar Cornejo
