@@ -2,7 +2,7 @@
   <div id="app">
 
     <div>
-      <b-navbar toggleable="lg" type="light " variant="warning">
+      <b-navbar toggleable="lg" type="light " variant="light">
         <b-navbar-brand class="menuItem" href="/">Challenger  Home</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
