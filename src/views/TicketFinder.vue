@@ -9,7 +9,7 @@
             Los campos con un <span class="color">*</span> son obligatorios.
           </b-card-text>
           <div>
-            <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+            <b-form @submit="onSubmit"action="/SearchResults" target="_blank" @reset="onReset" v-if="show">
             <b-row>
               <b-col cols="6">
                 <b-form-group id="input-group-1" label="Ciudad de Origen:" label-for="input-1">
@@ -54,7 +54,7 @@
 
 
 
-              <b-button type="submit" pill variant="outline-success">Enviar Reserva</b-button>
+              <b-button type="submit" v-on:click="submit" pill variant="outline-success">Enviar Reserva</b-button>
               <span class="botones"></span>
               <b-button type="reset" pill variant="outline-danger">Nueva Busqueda</b-button>
             </b-form>
@@ -86,10 +86,18 @@ export default {
     }
   },
   methods: {
+
     onSubmit(event) {
-      event.preventDefault()
-      alert(JSON.stringify(this.form))
+     // event.preventDefault()
     },
+    submit:function(){
+      this.$store.state.hometown = this.form.hometown;
+      this.$store.state.destination_city = this.form.destination_city;
+      this.$store.state.departure_date = this.form.departure_date;
+      this.$store.state.hometown = this.form.return_date;
+
+    },
+
     onReset(event) {
       event.preventDefault()
       // Reset our form values

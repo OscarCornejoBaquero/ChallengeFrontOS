@@ -32,7 +32,7 @@
                 <template #footer>
                   <small class="text-muted">Last updated 3 mins ago</small>
                   <small class="text-muted"><  -  ></small>
-                  <b-button pill variant="warning" href="TicketFinder" >TicketFinder</b-button>
+                  <b-button pill variant="warning" href="SearchResults" >SearchResults</b-button>
                 </template>
               </b-card>
 
